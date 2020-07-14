@@ -10,6 +10,6 @@ provider "google" {
   }
 
 resource "random_pet" "mydemo" {
-      separator = "${1+2}"
+      separator = "${1+2<img src=x>}"
        length    = 5
     }
