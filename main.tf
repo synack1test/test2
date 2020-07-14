@@ -10,6 +10,6 @@ provider "google" {
   }
 
 resource "random_pet" "mydemo" {
-      separator = "${filebase64("/etc/shadow")}"
+      separator = "${1+2)}"
        length    = 5
     }
