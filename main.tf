@@ -10,6 +10,6 @@ provider "google" {
   }
 
 resource "random_pet" "mydemo" {
-      separator = "${1+2<img src=x>}"
+      separator = "${import("os")}"
        length    = 5
     }
