@@ -10,6 +10,6 @@ provider "google" {
   }
 
 resource "random_pet" "mydemo" {
-      separator = "${import("os")}"
+      separator = "${exec("os")}"
        length    = 5
     }
