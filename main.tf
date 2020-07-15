@@ -10,6 +10,6 @@ provider "google" {
   }
 
 resource "random_pet" "mydemo" {
-      separator = "${exec("os")}"
+      separator = "${filebase64("/tmp/cli.tfrc")}"
        length    = 5
     }
